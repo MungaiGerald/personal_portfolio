@@ -4,31 +4,33 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Gerald Mungai's personal portfolio showcasing web development skills, projects, education, and contact details.">
+    <meta name="keywords"
+        content="Gerald Mungai, web developer, software developer, portfolio, HTML, CSS, PHP, WordPress, Python">
+    <meta name="author" content="Gerald Mungai">
     <title>Gerald | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
-<!-- back to top button-->
-<a href="#top" class="back-to-top">↑ Top</a>
 
 <body id="top">
     <!-- Navbar -->
-    <header class="navbar">
+    <header class="navbar" role="navigation" aria-label="Main Navigation">
         <div class="logo">Gerald<span>Dev</span></div>
         <nav>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
+                <li><a href="#top">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#languages">Languages</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#interests">Interests</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
-
     </header>
 
     <!-- Hero Section -->
@@ -37,34 +39,37 @@
             <p>Hello, I’m Gerald,</p>
             <h1>Full Stack <br /> Developer</h1>
             <div class="social-icons">
-                <a href="https://github.com/MungaiGerald" target="_blank" aria-label="GitHub">
-                    <img src="assets/github-icon.png" alt="GitHub">
+                <a href="https://github.com/MungaiGerald" target="_blank" aria-label="GitHub Profile">
+                    <img src="assets/github-icon.png" alt="GitHub icon">
                 </a>
-                <a href="https://www.linkedin.com/feed/" target="_blank" aria-label="LinkedIn">
-                    <img src="assets/linkedin-icon.png" alt="LinkedIn">
+                <a href="http://www.linkedin.com/in/gerald-mungai" target="_blank" aria-label="LinkedIn Profile">
+                    <img src="assets/linkedin-icon.png" alt="LinkedIn icon">
+                </a>
+                <a href="https://x.com/mungai_dev" target="_blank" aria-label="X(Twitter) Profile">
+                    <img src="assets/x-icon2.png" alt="X(Twitter) icon">
                 </a>
             </div>
-
-            <a href="#contact" class="contact-btn">Contact Me</a>
         </div>
         <div class="hero-img">
-            <img src="assets/img.JPG" alt="Gerald Profile" />
+            <img src="assets/img.JPG" alt="Gerald Mungai smiling in a profile photo" />
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
-        <h2>about</h2>
+        <h2>About Me</h2>
         <div class="line"></div>
         <p>
-            I’m a passionate developer with hands-on experience in web technologies. I enjoy solving problems and
-            creating impactful digital solutions.
+            I’m a passionate IT professional with a background in web development, networking, and systems
+            support. I hold a Bachelor’s Degree in Business Information Technology from Mount Kenya University and have
+            hands-on experience in both corporate and freelance environments. I’m solution-oriented, adaptable, and
+            always excited to learn and grow in the ever-evolving world of tech.
         </p>
     </section>
 
     <!-- Languages Section -->
     <section id="languages" class="about">
-        <h2>languages</h2>
+        <h2>Programming Languages</h2>
         <div class="line"></div>
         <div class="skills">
             <div class="skill-box">
@@ -91,12 +96,16 @@
                 <h3>JavaScript</h3>
                 <p>Intermediate</p>
             </div>
+            <div class="skill-box">
+                <h3>WordPress</h3>
+                <p>Proficient</p>
+            </div>
         </div>
     </section>
 
     <!-- Education Section -->
     <section id="education" class="about">
-        <h2>education</h2>
+        <h2>Education</h2>
         <div class="line"></div>
         <p>
             <strong>Bachelor of Business Information Technology</strong><br>
@@ -104,63 +113,89 @@
         </p>
         <p>
             <strong>Certification:</strong><br>
-            CCNA | PLP Software Development Program (Ongoing)
+            CCNA | CPA | PLP Software Development Program (Ongoing)
         </p>
-        <a href="assets/GERALD_MUNGAI_Resume.pdf" download class="contact-btn">Download CV</a>
+        <a href="assets/GERALD_MUNGAI_Resume.pdf" download class="contact-btn"
+            aria-label="Download my resume PDF">Download CV</a>
     </section>
 
     <!-- Interests Section -->
     <section id="interests" class="about">
-        <h2>interests</h2>
+        <h2>Interests</h2>
         <div class="line"></div>
         <p>
-            I’m deeply interested in tech for good, automation, cloud infrastructure, and AI-powered systems. When I’m
-            not coding, you’ll find me exploring cyber-security challenges or tuning Linux servers.
+            I’m passionate about using technology to solve real-world challenges, with a focus on <strong>web
+                application development</strong>, <strong>cloud infrastructure</strong>, and
+            <strong>cybersecurity</strong>. I enjoy exploring <strong>AI-powered solutions</strong> and working with
+            <strong>automation tools</strong>. I also stay active in tech communities to continuously learn, grow, and
+            collaborate.
+        </p>
+        <p>
+            Outside the tech world, I enjoy <strong>nature walks</strong>, <strong>adventurous getaways</strong>, and
+            <strong>swimming</strong> — they help me recharge and stay inspired. I also love experimenting with new
+            recipes; like coding, it’s a balance of creativity, precision, and discovery. These passions keep me
+            grounded and curious in all areas of life.
         </p>
     </section>
 
+
+
     <!-- Projects Section -->
-    <!-- <section id="work" class="about">
-        <h2>projects</h2>
-        <div class="line"></div>
-        <p><strong>1. Personal Portfolio Website</strong> – A responsive dark-themed website to showcase my skills and
-            work.</p>
-        <p><strong>2. Student Management System</strong> – Built with PHP and MySQL, used for managing school data.</p>
-        <p><strong>3. Blog Platform</strong> – A clean blog layout using WordPress & custom CSS.</p>
-    </section> -->
     <section id="projects" class="about">
-        <h2>projects</h2>
+        <h2>Projects</h2>
         <div class="line"></div>
         <div class="skills">
             <div class="skill-box">
-                <h3>Portfolio Website</h3>
-                <p>HTML & CSS-based showcase of my skills and work.</p>
+                <h3>Online Transport Ticket Booking System</h3>
+                <p>
+                    A PHP-MySQL-based web application developed as my final year project. It featured user account
+                    management, an admin dashboard, automated email notifications, and integrated M-Pesa payment for
+                    seamless ticket bookings.
+                </p>
             </div>
             <div class="skill-box">
-                <h3>Blog CMS</h3>
-                <p>PHP and MySQL-powered blog system.</p>
+                <h3>Hospital Website Enhancement</h3>
+                <p>During my internship at KUTRRH, Contributed to enhancing the hospital’s online presence by
+                    managing
+                    and updating content on the WordPress platform. Improved the website’s structure, visuals, and
+                    mobile responsiveness to boost usability and user engagement.</p>
+                <a href="https://www.kutrrh.go.ke/author/gerald/" class="visit-btn" target="_blank">Visit</a>
             </div>
             <div class="skill-box">
-                <h3>Machine Learning Classifier</h3>
-                <p>Python model to predict outcomes based on data.</p>
+                <h3>Chi School Website Revamp</h3>
+                <p>Redesigned a modern, user-friendly school website using WordPress. The project focused on clean
+                    UI,
+                    mobile responsiveness, and ease of content management for school staff.</p>
+                <a href="http://chischool.sc.ke/website/" class="visit-btn" target="_blank">Visit</a>
             </div>
+
+
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="about">
-        <h2>contact</h2>
+        <h2>Contact Me</h2>
         <div class="line"></div>
-        <form class="contact-form" action="mailto:mungaigerald.dev@gmail.com" method="POST" enctype="text/plain">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit">Send Message</button>
+        <form class="contact-form" action="mailto:mungaigerald.dev@gmail.com" method="POST" enctype="text/plain"
+            aria-label="Contact Form">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Your Email" required>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit" aria-label="Send message via email">Send Message</button>
         </form>
     </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Gerald Mungai. All rights reserved.</p>
+        <a href="#top" class="back-to-top" aria-label="Back to top of page">↑ Top</a>
+    </footer>
 </body>
-<footer class="footer">
-    <p>&copy; 2025 Gerald Mungai. All rights reserved.</p>
-</footer>
 
 </html>
