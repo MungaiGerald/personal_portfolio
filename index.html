@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerald | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Gerald<span>Dev</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <p>Hello, I’m Gerald,</p>
+            <h1>Full Stack <br /> Developer</h1>
+            <div class="social-icons">
+                <a href="https://github.com/MungaiGerald" target="_blank" aria-label="GitHub">
+                    <img src="assets/github-icon.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/feed/" target="_blank" aria-label="LinkedIn">
+                    <img src="assets/linkedin-icon.png" alt="LinkedIn">
+                </a>
+            </div>
+
+            <a href="#contact" class="contact-btn">Contact Me</a>
+        </div>
+        <div class="hero-img">
+            <img src="assets/img.JPG" alt="Gerald Profile" />
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>about</h2>
+        <div class="line"></div>
+        <p>
+            I’m a passionate developer with hands-on experience in web technologies. I enjoy solving problems and
+            creating impactful digital solutions.
+        </p>
+    </section>
+
+    <!-- Languages Section -->
+    <section id="languages" class="about">
+        <h2>languages</h2>
+        <div class="line"></div>
+        <div class="skills">
+            <div class="skill-box">
+                <h3>HTML</h3>
+                <p>Advanced</p>
+            </div>
+            <div class="skill-box">
+                <h3>CSS</h3>
+                <p>Proficient</p>
+            </div>
+            <div class="skill-box">
+                <h3>Python</h3>
+                <p>Intermediate</p>
+            </div>
+            <div class="skill-box">
+                <h3>PHP</h3>
+                <p>Intermediate</p>
+            </div>
+            <div class="skill-box">
+                <h3>MySQL</h3>
+                <p>Intermediate</p>
+            </div>
+            <div class="skill-box">
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="about">
+        <h2>education</h2>
+        <div class="line"></div>
+        <p>
+            <strong>Bachelor of Business Information Technology</strong><br>
+            Mount Kenya University, 2023
+        </p>
+        <p>
+            <strong>Certification:</strong><br>
+            CCNA | PLP Software Development Program (Ongoing)
+        </p>
+        <a href="assets/GERALD_MUNGAI_Resume.pdf" download class="contact-btn">Download CV</a>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="about">
+        <h2>interests</h2>
+        <div class="line"></div>
+        <p>
+            I’m deeply interested in tech for good, automation, cloud infrastructure, and AI-powered systems. When I’m
+            not coding, you’ll find me exploring cyber-security challenges or tuning Linux servers.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <!-- <section id="work" class="about">
+        <h2>projects</h2>
+        <div class="line"></div>
+        <p><strong>1. Personal Portfolio Website</strong> – A responsive dark-themed website to showcase my skills and
+            work.</p>
+        <p><strong>2. Student Management System</strong> – Built with PHP and MySQL, used for managing school data.</p>
+        <p><strong>3. Blog Platform</strong> – A clean blog layout using WordPress & custom CSS.</p>
+    </section> -->
+    <section id="projects" class="about">
+        <h2>projects</h2>
+        <div class="line"></div>
+        <div class="skills">
+            <div class="skill-box">
+                <h3>Portfolio Website</h3>
+                <p>HTML & CSS-based showcase of my skills and work.</p>
+            </div>
+            <div class="skill-box">
+                <h3>Blog CMS</h3>
+                <p>PHP and MySQL-powered blog system.</p>
+            </div>
+            <div class="skill-box">
+                <h3>Machine Learning Classifier</h3>
+                <p>Python model to predict outcomes based on data.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="about">
+        <h2>contact</h2>
+        <div class="line"></div>
+        <form class="contact-form" action="mailto:mungaigerald.dev@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+<footer class="footer">
+    <p>&copy; 2025 Gerald Mungai. All rights reserved.</p>
+</footer>
+
+</html>
